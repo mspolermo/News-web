@@ -1,0 +1,339 @@
+@import 'fonts.scss'; //Шрифты
+@import 'nullstyle.scss'; // Нормализация
+
+    // font-family: "Raleway",Arial,sans-serif;
+    // font-size: 14px;
+    // font-weight: bold;
+    // line-height: 1;
+    // white-space: nowrap;
+
+
+
+body {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+//Header
+.header-main {
+    margin-bottom: 15px;
+
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #6b6b6b;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left {
+    }
+    &__icon {
+        height: 60px;
+        width: 50px;
+        fill: #5046e5;
+    }
+    &__center {
+        display: flex;
+        align-items: center;
+    }
+    &__logo {
+        height: 70px;
+        width: 70px;
+    }
+    &__site-name {
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 36px;
+
+        color: #ed3106;
+    }
+    &__right {
+    }
+}
+.header-nav {
+    //margin-bottom: 15px;
+
+    &__container {
+        //border-bottom: 1px solid rgb(220, 220, 220)
+    }
+    &__list {
+        padding-bottom: 15px;
+        display: flex; 
+        justify-content: space-evenly;
+        align-items: stretch;
+        
+       
+    }
+    &__item {
+        flex: 0 1 14%;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 1;
+        text-align: center;
+        text-transform: uppercase;
+        color: #1e1e1e;
+    }
+    &__item:first-child {
+        flex: 0 1 15%;
+    }
+ }
+
+ //Main
+ .section-hero {
+    margin-bottom: 40px;
+    padding-top: 25px;
+    background-color: rgb(246, 241, 238);
+    &__container {
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        flex: 0 1 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__source {
+        flex: 0 1 30%;
+    }
+    &__link {
+        font-size: 12px;
+        color: rgb(139, 139, 139);
+        &_original {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            color: #ed3106;
+        }
+    }
+    &__date {
+        flex: 0 1 34%;
+    }
+    &__statistic {
+        flex: 0 1 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__comments {
+        flex: 0 1 50%;
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        margin-right: 4px;
+        height: 20px;
+        width: 20px;
+    }
+    &__views {
+        flex: 0 1 50%;
+        display: flex;
+        align-items: center;
+    }
+    &__right {
+    }
+    &__info {
+    }
+    &__heading {
+        padding-top: 10px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.3;
+        color: #3f3f3f;
+    }
+    &__second-heading {
+        margin-bottom: 40px;
+
+        font-size: 25px;
+        line-height: 1.5;
+        color: #565656;
+        
+    }
+    &__preview {
+        width: 100%;
+        // background: url('../../img/hero-img.jpg') no-repeat center center;
+    }
+    &__img {
+        vertical-align: middle;
+        width: 100%;
+    }
+    &__photo-source {
+        padding: 8px 0 40px;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+    }
+}
+.section-announce {
+    &__container {
+        display: flex;
+    }
+    &__left {
+        padding-right: 20px;
+    }
+    &__describe {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+
+        color: #565656;
+    }
+    &__center {
+    }
+    &__text {
+        margin: 20px 0 40px;
+        padding: 40px 0;
+        
+        font-size: 20px;
+        line-height: 1.5;
+        color: #343434;
+
+        border-top: 1px solid #eb5d0b;
+        border-bottom: 1px solid #eb5d0b;
+    }
+    &__author {
+        padding-bottom: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #343434;
+    }
+    &__right {
+        padding-left: 20px;
+    }
+    &__adds {
+        width: 200px;
+        height: 90%;
+        background-color: gray;
+    }
+}
+.section-article {
+
+    &__container {
+    }
+    
+    &__text {
+        padding-bottom: 20px;
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+}
+.section-comment-create {
+    margin-bottom: 20px;
+    &__container {
+    }
+    &__heading {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #343434;
+    }
+    &__form {
+        padding: 20px 0 20px 20px;
+        border: 1px solid black;
+    }
+    &__input {
+        
+    &_name {
+    }
+    &_text {
+        padding: 20px 0;
+        display: block;
+        width: 100%;
+    }
+    }
+    &__date {
+    }
+    &__btn {
+        border: 1px solid black;
+    }
+}
+.section-comments-list {
+    padding-bottom: 100px;
+    &__container {
+    }
+    &__comment {
+        margin-bottom: 20px;
+        padding: 20px 0 20px 20px;
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid black;
+    }
+    &__top {
+        display: flex;
+    }
+    &__avatar {
+        flex: 0 1 10%;
+        max-width: 50px;
+        height: 50px;
+
+        border: 1px solid gray;
+        border-radius: 50%;
+    }
+    &__picture {
+        max-width: 44px;
+        transform: translate(2px, 0px);
+    }
+    &__describtion {
+        flex: 0 1 80%;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    &__author-name {
+    }
+    &__date {
+    }
+    &__icon {
+        flex: 0 1 5%;
+        align-items: center;
+        
+    }
+    &__like {
+        max-width: 30px;
+        fill: #f2d8d8;
+        &_active{
+            fill: #ed3106;
+        }
+    }
+    &__remove {
+        max-width: 30px;
+    }
+    &__comment-text {
+        padding-top: 20px;
+        max-width: 90%;
+    }
+}
+    
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
