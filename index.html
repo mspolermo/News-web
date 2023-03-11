@@ -52,11 +52,11 @@
                         <div class="section-hero__statistic">
                             <div class="section-hero__comments">
                                 <img class="section-hero__icon" src="./img/hero-comments.svg" alt="Comments">
-                                <a href="" class="section-hero__link">DATA</a>
+                                <a href="" class="section-hero__link" id="section-hero-comments">2</a>
                             </div>
                             <div class="section-hero__views">
                                 <img class="section-hero__icon" src="./img/hero-views.svg" alt="Views">
-                                <a href="" class="section-hero__link">DATA</a>
+                                <a href="" class="section-hero__link">1563</a>
                             </div>
                         </div>
                     </div>
@@ -103,10 +103,19 @@
         <section class="section-comment-create">
             <div class="container section-comment-create__container">
                 <h2 class="section-comment-create__heading">Комментарии</h2>
+                <span class="section-comment-create__comments-counter" id="section-comment-create-counter">2</span>
                 <form action="" name="formCreate" class="section-comment-create__form">
-                    <input required="" type="text" name="author" placeholder="Введите имя" class="section-comment-create__input section-comment-create__input_name" id="name">
-                    <input type="date" name="date" value="" class="section-comment-create__date">
-                    <input required="" type="text" name="text" placeholder="Напишите комментарий" class="section-comment-create__input section-comment-create__input_text">
+                    <div class="section-comment-create__top">
+                        <div class="section-comment-create__left">
+                            <input type="text" name="author" placeholder="Введите имя" class="section-comment-create__input section-comment-create__input_name" id="name">
+                            <span class="section-comment-create__error section-comment-create__error_none" id="label-for-name"></span>
+                        </div>
+                        <input type="date" name="date" value="" class="section-comment-create__date" id="date">
+                    </div>
+                    <div class="section-comment-create__center">
+                        <input type="text" name="text" placeholder="Напишите комментарий" class="section-comment-create__input section-comment-create__input_text" id="text-of-comment">
+                        <span class="section-comment-create__error section-comment-create__error_none" id="label-for-text-of-comment"></span>
+                    </div>    
                     <button type="submit" id="button-send" class="section-comment-create__btn">Отправить</button>
                 </form>
             </div>
@@ -119,17 +128,17 @@
                             <img src="./img/header-login.svg" alt="" class="section-comments-list__picture">
                         </div>
                         <div class="section-comments-list__describtion" id="comment-describtion-1">
-                            <div class="section-comments-list__author-name">Author1</div>
+                            <div class="section-comments-list__author-name">Василий Мясоедов</div>
                             <div class="section-comments-list__date">2023-03-02</div>
                         </div>
                         <div class="section-comments-list__icon">
-                            <svg class="section-comments-list__like" viewBox="0 0 12 12"><g><path d="M8.5,1C7.5206299,1,6.6352539,1.4022217,6,2.0504761C5.3648071,1.4022827,4.4793701,1,3.5,1 C1.5670166,1,0,2.5670166,0,4.5S2,8,6,11c4-3,6-4.5670166,6-6.5S10.4329834,1,8.5,1z"></path></g></svg>
+                            <img src="./img/comments-like.svg" alt="" class="section-comments-list__like">
                         </div>
-                        <div class="section-comments-list__remove">
+                        <div class="section-comments-list__icon">
                             <img src="./img/comments-trash.svg" alt="" class="section-comments-list__remove">
                         </div>
                     </div>
-                    <div class="section-comments-list__comment-text">bla-bla-bla</div>
+                    <div class="section-comments-list__comment-text">Во такие пирожочки с котятками..... Эх ребята, что-то мне кушать захотелось %-) </div>
                 </div>
                 <div class="section-comments-list__comment" id="comment-2">
                     <div class="section-comments-list__top" id="comment-top-2">
@@ -137,17 +146,17 @@
                             <img src="./img/header-login.svg" alt="" class="section-comments-list__picture">
                         </div>
                         <div class="section-comments-list__describtion" id="comment-describtion-2">
-                            <div class="section-comments-list__author-name">Author2</div>
+                            <div class="section-comments-list__author-name">Иван Таранов</div>
                             <div class="section-comments-list__date">2023-03-02</div>
                         </div>
                         <div class="section-comments-list__icon">
-                            <svg class="section-comments-list__like section-comments-list__like_active" viewBox="0 0 12 12"><g><path d="M8.5,1C7.5206299,1,6.6352539,1.4022217,6,2.0504761C5.3648071,1.4022827,4.4793701,1,3.5,1 C1.5670166,1,0,2.5670166,0,4.5S2,8,6,11c4-3,6-4.5670166,6-6.5S10.4329834,1,8.5,1z"></path></g></svg>
+                            <img src="./img/comments-like-active.svg" alt="" class="section-comments-list__like">
                         </div>
                         <div class="section-comments-list__icon">
                             <img src="./img/comments-trash.svg" alt="" class="section-comments-list__remove">
                         </div>
                     </div>
-                    <div class="section-comments-list__comment-text">bla-blaaaaa-blaaaaaa bla-blaaaaa-blaaaaaa bla-blaaaaa-blaaaaaa bla-blaaaaa-blaaaaaa bla bla blabla bla м м м м м blabla v v v vblablavм bla м bla bla bla м м м м м мbla  bla </div>
+                    <div class="section-comments-list__comment-text">Конечно Макдональдс - максимально раскрученный брэнд, но лично я уверен на 100%, что если г-н Говор под абсолютно новым брендом организует аналогичные точки питания на российском фаст-фуде, а именно: оставит те же точки и тот же комфорт (а куда ему деваться? он по дешевке купил заведомо-прибыльную раскрученную компанию, которую ни строить, ни восстанавливать не нужно), полностью перейдет на сырьё и полуфабрикаты российского производства (кстати, можно и с китайцами коопернуть, это ещё та крутейшая тема - добавить большой сегмент китайской кухни), чуть-чуть понизит цены и оставит прежний штат, то даже жылы рвать не нужно, - эта компания моментально взлетит на пьедестал фаст-фуда в России. А может даже и еще где-нить. Легко, если плотно взяться и грамотно руководить, - люди валом пойдут в новые ресторанчики хотя бы попробовать, а если там хорошо и не дорого, - ну и нафик тогда нужен этот странный клоун Рональд, часто лично мне напоминавший Пенниуайза без шариков.</div>
                 </div>
             </div>
         </section>

@@ -1,16 +1,48 @@
 const btnSend = document.querySelector('#button-send');
 let form = document.forms.formCreate;
+let commentBlock = document.getElementById('comment-block');
 
-btnSend.addEventListener('click', createComment)
+btnSend.addEventListener('click', function () {
+    event.preventDefault();
+    validationCheck('name', true);
+    validationCheck('text-of-comment');
+
+    if (validationCheck('name', true) && validationCheck('text-of-comment'))  {
+        createComment ();
+    };
+});
+
+commentBlock.addEventListener('click', function(event) {
+
+    if (event.target.className == 'section-comments-list__like') {
+        if (!event.target.getAttribute('src').includes('-active')) {
+
+            const passiveLike = event.target.closest('div');
+
+            const activeLike = document.createElement('div');
+            activeLike.className = 'section-comments-list__icon';
+            activeLike.innerHTML = '<img src="./img/comments-like-active.svg" alt="" class="section-comments-list__like">';
+            passiveLike.replaceWith(activeLike);
+        } else {
+            const activeLike = event.target.closest('div');
+
+            const passiveLike = document.createElement('div');
+            passiveLike.className = 'section-comments-list__icon';
+            passiveLike.innerHTML = '<img src="./img/comments-like.svg" alt="" class="section-comments-list__like">';
+            activeLike.replaceWith(passiveLike);
+        }
+    };
+
+    if (event.target.className != 'section-comments-list__remove') return;
+
+    let currentComment = event.target.closest('.section-comments-list__comment');
+    currentComment.remove();
+    document.getElementById('section-hero-comments').innerText = commentsCount();
+    document.getElementById('section-comment-create-counter').innerText = commentsCount();
+});
 
 function createComment (event) {
-    event.preventDefault();
     let numberOfComment = commentsCount () + 1;
-
-    // console.log('Кнопка нажата');
-    // console.log(form.elements.author.value);
-    // console.log(form.elements.text.value);
-    // console.log(form.elements.date.value);
 
     const newComment = document.createElement('div');
     newComment.className = 'section-comments-list__comment';
@@ -36,51 +68,98 @@ function createComment (event) {
     authorName.className = 'section-comments-list__author-name';
     authorName.innerText = form.elements.author.value;
     document.getElementById('comment-describtion-' + numberOfComment).append(authorName); 
+    document.getElementById('name').value = '';
 
     const commentDate = document.createElement('div');
     commentDate.className = 'section-comments-list__date';
-    commentDate.innerText = form.elements.date.value;
-    document.getElementById('comment-describtion-' + numberOfComment).append(commentDate); 
+    commentDate.innerText = dateUpdate(form.elements.date.value);
+    document.getElementById('comment-describtion-' + numberOfComment).append(commentDate);
+    document.getElementById('date').value = ''; 
 
     const newLike = document.createElement('div');
     newLike.className = 'section-comments-list__icon';
-    newLike.innerHTML = ('<svg class="section-comments-list__like" viewBox="0 0 12 12"><g><path d="M8.5,1C7.5206299,1,6.6352539,1.4022217,6,2.0504761C5.3648071,1.4022827,4.4793701,1,3.5,1 C1.5670166,1,0,2.5670166,0,4.5S2,8,6,11c4-3,6-4.5670166,6-6.5S10.4329834,1,8.5,1z"></path></g></svg>');
+    newLike.innerHTML = ('<img src="./img/comments-like.svg" alt="" class="section-comments-list__like">');
     document.getElementById('comment-top-' + numberOfComment).append(newLike); 
 
     const newRemoveBtn = document.createElement('div');
-    newRemoveBtn.className = 'section-comments-list__remove';
+    newRemoveBtn.className = 'section-comments-list__icon';
     newRemoveBtn.innerHTML = ('<img src="./img/comments-trash.svg" alt="" class="section-comments-list__remove">');
     document.getElementById('comment-top-' + numberOfComment).append(newRemoveBtn); 
-
 
     const commentText = document.createElement('div');
     commentText.className = 'section-comments-list__comment-text';
     commentText.innerText = form.elements.text.value;
     document.getElementById('comment-' + numberOfComment).append(commentText); 
+    document.getElementById('text-of-comment').value = ''; 
 
-}
-
-let commentBlock = document.getElementById('comment-block');
+    document.getElementById('section-hero-comments').innerText = commentsCount();
+    document.getElementById('section-comment-create-counter').innerText = commentsCount();
+};
 
 function commentsCount () {
    return commentBlock.children.length
-}
-
-document.getElementById('comment-block').onclick = function(event) {
-    console.log(event.target)
-    if (event.target.closest('div').className == 'section-comments-list__icon') {
-        console.log(event.target)
-    }
-
-    if (event.target.className != 'section-comments-list__remove') return;
-
-    let currentComment = event.target.closest('.section-comments-list__comment');
-    currentComment.remove();
 };
 
-// document.getElementById('comment-block').onclick = function(event) {
-//     if (event.target.className != 'section-comments-list__icon') return;
+function validationCheck (id, symbols = false) {
+    let field = document.getElementById(id);
 
-//     console.log('currentLike')
-// };
+    if ((field.value.length < 1) || (symbols == true)) {
+        
+        if (field.value.length < 1) {
+
+            document.getElementById('label-for-' + id).classList.remove('section-comment-create__error_none');
+            document.getElementById('label-for-' + id).innerText = 'Длина поля слишком короткая';
+
+            field.addEventListener('input', function () {
+                document.getElementById('label-for-' + id).classList.add('section-comment-create__error_none');
+            });
+            return false
+        };
+
+        if (symbols == true){
+
+            if (field.value.match(/[0-9\\.,:*$/\\!@#%^&()'"]/g) !== null) {
+                document.getElementById('label-for-' + id).classList.remove('section-comment-create__error_none');
+                document.getElementById('label-for-' + id).innerText = `Поле не должно содержать цифр и спецсимволов`;
+
+                field.addEventListener('input', function () {
+                    document.getElementById('label-for-' + id).classList.add('section-comment-create__error_none');
+                });
+                return false
+            }else {
+                return true
+            };
+        }; 
+
+    } else {
+        return true
+    };
+};
+
+function dateUpdate (date) {
+    let today = new Date();
+    let yesterday = yesterdayCount(today);
+
+    function yesterdayCount(today) {
+        let month = today.getMonth() + 1;
+        if (month <10) {
+            month='0'+ (today.getMonth() +1);
+        };
+        let day = today.getDate() - 1;
+        if (day<10) {
+            day= '0' + (today.getDate() - 1);
+        }
+        return `${today.getFullYear()}-${month}-${day}`
+    };
+
+    if (date == '') {
+        date = `сегодня, ${today.getHours()}:${today.getMinutes()}`;
+    };
+
+    if (date == yesterday) {
+        date = 'вчера, 18:39'
+    };
+
+    return date
+};
 

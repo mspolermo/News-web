@@ -237,30 +237,61 @@ font-weight: 400;
 .section-comment-create {
     margin-bottom: 20px;
     &__container {
+        
     }
     &__heading {
+        display: inline-block;
+        padding-right: 10px;
         font-size: 20px;
         font-weight: 600;
         line-height: 1.5;
         color: #343434;
     }
+    &__comments-counter {
+        display: inline-block;
+        color: blue;
+    }
     &__form {
-        padding: 20px 0 20px 20px;
+        padding: 20px 40px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 150px;
+
         border: 1px solid black;
     }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+
+    }
     &__input {
+        border-bottom: 1px solid black;
         
-    &_name {
+        &_name {
+            margin-right: 10px;
+        }
+        &_text {
+            margin: 20px 0;
+            display: block;
+            width: 85%;
+            overflow: visible;
+        }
     }
-    &_text {
-        padding: 20px 0;
-        display: block;
-        width: 100%;
-    }
+    &__error {
+        border: 1px solid red;
+        &_none {
+            display: none;
+        }
     }
     &__date {
     }
     &__btn {
+        width: 100px;
+        align-self: self-end;
+
         border: 1px solid black;
     }
 }
@@ -308,11 +339,8 @@ font-weight: 400;
         
     }
     &__like {
-        max-width: 30px;
-        fill: #f2d8d8;
-        &_active{
-            fill: #ed3106;
-        }
+        width: 30px;
+
     }
     &__remove {
         max-width: 30px;
