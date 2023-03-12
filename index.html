@@ -26,13 +26,27 @@
         <section class="header-nav">
             <div class="container header-nav__container">
                 <ul class="header-nav__list">
-                    <li class="header-nav__item">Все материалы</li>
-                    <li class="header-nav__item">Политика</li>
-                    <li class="header-nav__item">Экономика</li>
-                    <li class="header-nav__item">Общество</li>
-                    <li class="header-nav__item">Наука</li>
-                    <li class="header-nav__item">Блоги</li>
-                    <li class="header-nav__item">Новости</li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Все материалы</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Политика</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Экономика</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Общество</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Наука</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Блоги</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Новости</a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -47,21 +61,21 @@
                             <a href="" class="section-hero__link">США</a>
                         </div>
                         <div class="section-hero__date">
-                            <a href="" class="section-hero__link">15 января 2023 13:05</a>
+                            <a href="https://inosmi.ru/20230115/makdonalds-259714042.html" class="section-hero__link">15 января 2023 13:05</a>
                         </div>
                         <div class="section-hero__statistic">
                             <div class="section-hero__comments">
                                 <img class="section-hero__icon" src="./img/hero-comments.svg" alt="Comments">
-                                <a href="" class="section-hero__link" id="section-hero-comments">2</a>
+                                <a href="#section-comment-create-heading" class="section-hero__link" id="section-hero-comments">2</a>
                             </div>
                             <div class="section-hero__views">
                                 <img class="section-hero__icon" src="./img/hero-views.svg" alt="Views">
-                                <a href="" class="section-hero__link">1563</a>
+                                <a href="" class="section-hero__link">13242</a>
                             </div>
                         </div>
                     </div>
                     <div class="section-hero__right">
-                        <a href="https://inosmi.ru/20230115/makdonalds-259714042.html" class="section-hero__link_original">Оригинал статьи</a>
+                        <a href="https://www.bloomberg.com/news/features/2023-01-04/mcdonald-s-won-big-in-russia-until-the-ukraine-invasion?leadSource=uverify%20wall " class="section-hero__link_original">Оригинал статьи</a>
                     </div>
                 </div>
                 <div class="section-hero__info">
@@ -102,8 +116,9 @@
         </section>
         <section class="section-comment-create">
             <div class="container section-comment-create__container">
-                <h2 class="section-comment-create__heading">Комментарии</h2>
+                <h2 class="section-comment-create__heading" >Комментарии</h2>
                 <span class="section-comment-create__comments-counter" id="section-comment-create-counter">2</span>
+                <a name="section-comment-create-heading"></a>
                 <form action="" name="formCreate" class="section-comment-create__form">
                     <div class="section-comment-create__top">
                         <div class="section-comment-create__left">
@@ -113,7 +128,7 @@
                         <input type="date" name="date" value="" class="section-comment-create__date" id="date">
                     </div>
                     <div class="section-comment-create__center">
-                        <input type="text" name="text" placeholder="Напишите комментарий" class="section-comment-create__input section-comment-create__input_text" id="text-of-comment">
+                        <textarea type="text" name="text" placeholder="Напишите комментарий" class="section-comment-create__textarea" id="text-of-comment"></textarea>
                         <span class="section-comment-create__error section-comment-create__error_none" id="label-for-text-of-comment"></span>
                     </div>    
                     <button type="submit" id="button-send" class="section-comment-create__btn">Отправить</button>
@@ -129,7 +144,7 @@
                         </div>
                         <div class="section-comments-list__describtion" id="comment-describtion-1">
                             <div class="section-comments-list__author-name">Василий Мясоедов</div>
-                            <div class="section-comments-list__date">2023-03-02</div>
+                            <div class="section-comments-list__date">2023-03-02, 16:40</div>
                         </div>
                         <div class="section-comments-list__icon">
                             <img src="./img/comments-like.svg" alt="" class="section-comments-list__like">
@@ -138,7 +153,7 @@
                             <img src="./img/comments-trash.svg" alt="" class="section-comments-list__remove">
                         </div>
                     </div>
-                    <div class="section-comments-list__comment-text">Во такие пирожочки с котятками..... Эх ребята, что-то мне кушать захотелось %-) </div>
+                    <div class="section-comments-list__comment-text">Вот такие пирожочки с котятками..... Эх ребята, что-то мне кушать захотелось %-) </div>
                 </div>
                 <div class="section-comments-list__comment" id="comment-2">
                     <div class="section-comments-list__top" id="comment-top-2">
@@ -147,7 +162,7 @@
                         </div>
                         <div class="section-comments-list__describtion" id="comment-describtion-2">
                             <div class="section-comments-list__author-name">Иван Таранов</div>
-                            <div class="section-comments-list__date">2023-03-02</div>
+                            <div class="section-comments-list__date">2023-03-02, 18:39</div>
                         </div>
                         <div class="section-comments-list__icon">
                             <img src="./img/comments-like-active.svg" alt="" class="section-comments-list__like">

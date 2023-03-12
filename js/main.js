@@ -1,13 +1,14 @@
-const btnSend = document.querySelector('#button-send');
-let form = document.forms.formCreate;
+let  btnSend = document.querySelector('#button-send');
 let commentBlock = document.getElementById('comment-block');
+let textarea = document.getElementById('text-of-comment');
+let form = document.forms.formCreate;
 
 btnSend.addEventListener('click', function () {
     event.preventDefault();
-    validationCheck('name', true);
+    validationCheck('name', 2, true);
     validationCheck('text-of-comment');
 
-    if (validationCheck('name', true) && validationCheck('text-of-comment'))  {
+    if (validationCheck('name', 2, true) && validationCheck('text-of-comment'))  {
         createComment ();
     };
 });
@@ -39,6 +40,22 @@ commentBlock.addEventListener('click', function(event) {
     currentComment.remove();
     document.getElementById('section-hero-comments').innerText = commentsCount();
     document.getElementById('section-comment-create-counter').innerText = commentsCount();
+});
+
+textarea.addEventListener('keydown', function () {
+    if (this.scrollHeight > 20) {
+        this.style.cssText = 'height: auto; padding: 0';
+        this.style.cssText = 'height:' + (this.scrollHeight + 6)+ 'px';
+    };
+    if (event.keyCode == 13) {
+        event.preventDefault();
+        validationCheck('name', 2, true);
+        validationCheck('text-of-comment');
+    
+        if (validationCheck('name', 2, true) && validationCheck('text-of-comment'))  {
+            createComment ();
+        };
+    };
 });
 
 function createComment (event) {
@@ -94,18 +111,19 @@ function createComment (event) {
 
     document.getElementById('section-hero-comments').innerText = commentsCount();
     document.getElementById('section-comment-create-counter').innerText = commentsCount();
+    textarea.style.cssText = '20px';
 };
 
 function commentsCount () {
    return commentBlock.children.length
 };
 
-function validationCheck (id, symbols = false) {
+function validationCheck (id, min = 1, symbols = false) {
     let field = document.getElementById(id);
 
-    if ((field.value.length < 1) || (symbols == true)) {
+    if ((field.value.length < min) || (symbols == true)) {
         
-        if (field.value.length < 1) {
+        if (field.value.length < min) {
 
             document.getElementById('label-for-' + id).classList.remove('section-comment-create__error_none');
             document.getElementById('label-for-' + id).innerText = 'Длина поля слишком короткая';
@@ -138,28 +156,47 @@ function validationCheck (id, symbols = false) {
 
 function dateUpdate (date) {
     let today = new Date();
-    let yesterday = yesterdayCount(today);
+    let yesterday = daysAgoCount(today, 1);
 
-    function yesterdayCount(today) {
+    function daysAgoCount(today, num) {
         let month = today.getMonth() + 1;
         if (month <10) {
-            month='0'+ (today.getMonth() +1);
+            month='0'+ (today.getMonth() + 1);
         };
-        let day = today.getDate() - 1;
+        let day = today.getDate() - num;
         if (day<10) {
-            day= '0' + (today.getDate() - 1);
+            day= '0' + (today.getDate() - num);
         }
         return `${today.getFullYear()}-${month}-${day}`
     };
+    function randomTime() {
+        let randomHours = Math.floor(Math.random()*(24-0) + 0);
+        let randomMinutes = Math.floor(Math.random()*(60-0) + 0);
+        if (randomHours < 10) {
+            randomHours = '0' + randomHours;
+        };
+        if (randomMinutes < 10) {
+            randomMinutes = '0' + randomMinutes;
+        };
+        return `${randomHours}:${randomMinutes}`
+    }
 
-    if (date == '') {
-        date = `сегодня, ${today.getHours()}:${today.getMinutes()}`;
-    };
 
-    if (date == yesterday) {
-        date = 'вчера, 18:39'
-    };
+    if ((date == '') || (date == daysAgoCount(today, 0))) {
+        let hours = today.getHours();
+        let minutes = today.getMinutes();
+        if (hours < 10) {
+            hours = '0' + hours;
+        };
+        if (minutes < 10) {
+            minutes = '0' + minutes;
+        };
+        date = `сегодня, ${hours}:${minutes}`;
+    }else if (date == yesterday) {
+        date = 'вчера, ' + randomTime();
+    } else {
+        date = date + ', ' + randomTime();
+    }
 
     return date
 };
-
