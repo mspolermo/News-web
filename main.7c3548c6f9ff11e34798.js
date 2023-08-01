@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"70eb20f45cfe99f9ade8.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.svg?");
+eval("module.exports = __webpack_require__.p + \"1a4aa27e9857accab066.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.svg?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("module.exports = __webpack_require__.p + \"70eb20f45cfe99f9ade8.svg\";\n\n
   \****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a0ac230e08c1fbdc9acd.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.svg?");
+eval("module.exports = __webpack_require__.p + \"080410ed9381ef19b81f.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.svg?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("module.exports = __webpack_require__.p + \"a0ac230e08c1fbdc9acd.svg\";\n\n
   \****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"711a6f30e7865573a4cb.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.svg?");
+eval("module.exports = __webpack_require__.p + \"4bab9c53be870410f86a.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.svg?");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("module.exports = __webpack_require__.p + \"711a6f30e7865573a4cb.svg\";\n\n
   \********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d973ea0c8d6aa0b265bb.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.svg?");
+eval("module.exports = __webpack_require__.p + \"a933a6d317ad52a582dd.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.svg?");
 
 /***/ }),
 
