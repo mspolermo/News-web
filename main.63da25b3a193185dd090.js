@@ -130,83 +130,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 
 /***/ }),
 
-/***/ "./src/styles/fonts/merriweather-v30-cyrillic-900.woff":
-/*!*************************************************************!*\
-  !*** ./src/styles/fonts/merriweather-v30-cyrillic-900.woff ***!
-  \*************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/merriweather-v30-cyrillic-900..woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/merriweather-v30-cyrillic-900.woff?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/merriweather-v30-cyrillic-900.woff2":
-/*!**************************************************************!*\
-  !*** ./src/styles/fonts/merriweather-v30-cyrillic-900.woff2 ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/merriweather-v30-cyrillic-900..woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/merriweather-v30-cyrillic-900.woff2?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.eot":
-/*!****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.eot ***!
-  \****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-600..eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.eot?");
-
-/***/ }),
-
 /***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.svg":
 /*!****************************************************************!*\
   !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.svg ***!
   \****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-600..svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.svg?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.ttf":
-/*!****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.ttf ***!
-  \****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-600..ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.ttf?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff":
-/*!*****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff ***!
-  \*****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-600..woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff2":
-/*!******************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff2 ***!
-  \******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-600..woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff2?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.eot":
-/*!****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.eot ***!
-  \****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-700..eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.eot?");
+eval("module.exports = __webpack_require__.p + \"aa6307ff3b870ca8ee3e.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.svg?");
 
 /***/ }),
 
@@ -216,47 +146,7 @@ eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyril
   \****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-700..svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.svg?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.ttf":
-/*!****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.ttf ***!
-  \****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-700..ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.ttf?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff":
-/*!*****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff ***!
-  \*****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-700..woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff2":
-/*!******************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff2 ***!
-  \******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-700..woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff2?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.eot":
-/*!****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.eot ***!
-  \****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-800..eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.eot?");
+eval("module.exports = __webpack_require__.p + \"6fbdec388be0587ade42.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.svg?");
 
 /***/ }),
 
@@ -266,47 +156,7 @@ eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyril
   \****************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-800..svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.svg?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.ttf":
-/*!****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.ttf ***!
-  \****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-800..ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.ttf?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff":
-/*!*****************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff ***!
-  \*****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-800..woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff2":
-/*!******************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff2 ***!
-  \******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-800..woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff2?");
-
-/***/ }),
-
-/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.eot":
-/*!********************************************************************!*\
-  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.eot ***!
-  \********************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-regular..eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.eot?");
+eval("module.exports = __webpack_require__.p + \"4c376caee839ab3c01c3.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.svg?");
 
 /***/ }),
 
@@ -316,7 +166,157 @@ eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyril
   \********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-regular..svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.svg?");
+eval("module.exports = __webpack_require__.p + \"9c7ae249c524bb7836bd.svg\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.svg?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/merriweather-v30-cyrillic-900.woff":
+/*!*************************************************************!*\
+  !*** ./src/styles/fonts/merriweather-v30-cyrillic-900.woff ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"47d442c089ef6fa414a1.woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/merriweather-v30-cyrillic-900.woff?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/merriweather-v30-cyrillic-900.woff2":
+/*!**************************************************************!*\
+  !*** ./src/styles/fonts/merriweather-v30-cyrillic-900.woff2 ***!
+  \**************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f2612b2970af63122dbd.woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/merriweather-v30-cyrillic-900.woff2?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.eot":
+/*!****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.eot ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b0e3e940647c7aa24bea.eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.eot?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.ttf":
+/*!****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.ttf ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5ea194618982fbe25b56.ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.ttf?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff":
+/*!*****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4edd74c91c8986a260a8.woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff2":
+/*!******************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff2 ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"57bef0d4b76d324bc86f.woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-600.woff2?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.eot":
+/*!****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.eot ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8dfb70dc472feab899dc.eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.eot?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.ttf":
+/*!****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.ttf ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"36a1eb44bcfe454ced37.ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.ttf?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff":
+/*!*****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5730e71aefae2c2f6a30.woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff2":
+/*!******************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff2 ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"31b571dccdbaed783d32.woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-700.woff2?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.eot":
+/*!****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.eot ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c7809985450755eea518.eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.eot?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.ttf":
+/*!****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.ttf ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6099af501661fb23f631.ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.ttf?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff":
+/*!*****************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b73809da141159c1194b.woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff2":
+/*!******************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff2 ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8cc071a9e6623e6335fb.woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-800.woff2?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.eot":
+/*!********************************************************************!*\
+  !*** ./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.eot ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d05e9cce802e881f4352.eot\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.eot?");
 
 /***/ }),
 
@@ -326,7 +326,7 @@ eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyril
   \********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-regular..ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.ttf?");
+eval("module.exports = __webpack_require__.p + \"ab3c82024829cf5289db.ttf\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.ttf?");
 
 /***/ }),
 
@@ -336,7 +336,7 @@ eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyril
   \*********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-regular..woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.woff?");
+eval("module.exports = __webpack_require__.p + \"275156bc88fb38e6094d.woff\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.woff?");
 
 /***/ }),
 
@@ -346,7 +346,7 @@ eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyril
   \**********************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"public/img/montserrat-v25-cyrillic_latin-regular..woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.woff2?");
+eval("module.exports = __webpack_require__.p + \"62c0f043622de8dcd791.woff2\";\n\n//# sourceURL=webpack://news-web/./src/styles/fonts/montserrat-v25-cyrillic_latin-regular.woff2?");
 
 /***/ })
 
